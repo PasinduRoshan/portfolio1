@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 import TransitionProvider from "@/components/transitionProvider";
 
 const inter = Inter({ subsets: ["latin"] });
